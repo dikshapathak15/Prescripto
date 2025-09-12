@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
+    <>
     <div className='mx-4 sm:mx-[10%]'>
       <Navbar></Navbar>
       <Routes>
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/appointments/:docId' element={<Appointment/>}/>
       </Routes>
     </div>
+    </>
   )
 }
 
