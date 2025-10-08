@@ -12,7 +12,7 @@ const Doctors = () => {
       <p>Browse through the doctors specialist.</p>
       <div>
         <div>
-          <p> physician</p>
+          <p>General physician</p>
           <p>Gynecologist</p>
           <p>Dermatologist</p>
           <p>Pediatricians</p>
