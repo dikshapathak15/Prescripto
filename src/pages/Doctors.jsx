@@ -26,32 +26,32 @@ const Doctors = () => {
       <p className="text-gray-600">Browse through the doctors specialist.</p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         <div className=" flex flex-col gap-4 text-sm text-gray-600">
-          <p
+          <p onClick={() => speciality === 'General physician' ? navigate('/doctors'): navigate(`/doctors/General physician`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             General physician
           </p>
-          <p
+          <p onClick={() => speciality === '  Gynecologist' ? navigate('/doctors'): navigate(`/doctors/  Gynecologist`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Gynecologist
           </p>
-          <p
+          <p onClick={() => speciality === '  Dermatologist' ? navigate('/doctors'): navigate(`/doctors/  Dermatologist`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Dermatologist
           </p>
-          <p
+          <p onClick={() => speciality === ' Pediatricians' ? navigate('/doctors'): navigate(`/doctors/ Pediatricians`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Pediatricians
           </p>
-          <p
+          <p onClick={() => speciality === '' ? navigate('/doctors'): navigate(`/doctors/`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Neurologist
           </p>
-          <p
+          <p onClick={() => speciality === 'Gastroenterologist' ? navigate('/doctors'): navigate(`/doctors/Gastroenterologist`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Gastroenterologist
