@@ -31,22 +31,22 @@ const Doctors = () => {
           >
             General physician
           </p>
-          <p onClick={() => speciality === '  Gynecologist' ? navigate('/doctors'): navigate(`/doctors/  Gynecologist`)}
+          <p  onClick={() => speciality === 'Gynecologist' ? navigate('/doctors'): navigate(`/doctors/Gynecologist`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Gynecologist
           </p>
-          <p onClick={() => speciality === '  Dermatologist' ? navigate('/doctors'): navigate(`/doctors/  Dermatologist`)}
+          <p  onClick={() => speciality === 'Dermatologist' ? navigate('/doctors'): navigate(`/doctors/Dermatologist`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Dermatologist
           </p>
-          <p onClick={() => speciality === ' Pediatricians' ? navigate('/doctors'): navigate(`/doctors/ Pediatricians`)}
+          <p  onClick={() => speciality === 'Pediatricians' ? navigate('/doctors'): navigate(`/doctors/Pediatricians`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Pediatricians
           </p>
-          <p onClick={() => speciality === '' ? navigate('/doctors'): navigate(`/doctors/`)}
+          <p onClick={() => speciality === 'Neurologist' ? navigate('/doctors'): navigate(`/doctors/Neurologist`)}
             className={`w-[94vw] sm:w-auto p1-3 py-1.5 pr-16 border border-gray-300 rounded transtion-all cursor-pointer`}
           >
             Neurologist
